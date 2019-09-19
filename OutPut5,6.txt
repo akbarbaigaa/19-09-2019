@@ -1,0 +1,99 @@
+Out Put For 5th
+.............
+The Resultant table is :
+
+{"'No'": {'humidity': {"'High'": 3, "'Normal'": 1},
+          'outlook': {"'Rain'": 1, "'Sunny'": 3},
+          'temp': {"'Cool'": 1, "'Hot'": 2, "'Mild'": 1},
+          'wind': {"'Strong'": 2, "'Weak'": 2}},
+ "'Yes'": {'humidity': {"'High'": 2, "'Normal'": 5},
+           'outlook': {"'Overcast'": 4, "'Rain'": 2, "'Sunny'": 1},
+           'temp': {"'Cool'": 2, "'Hot'": 2, "'Mild'": 3},
+           'wind': {"'Strong'": 3, "'Weak'": 4}}}
+{"'No'": 4, "'Yes'": 7}
+print row tuple
+{'humidity': "'High'",
+ 'label': "'Yes'",
+ 'outlook': "'Rain'",
+ 'temp': "'Mild'",
+ 'wind': "'Weak'"}
+RowTuple dict_keys(['outlook', 'temp', 'humidity', 'wind', 'label'])
+RowValues dict_values(["'Rain'", "'Mild'", "'High'", "'Weak'", "'Yes'"])
+outlook label: 'No'
+temp label: 'No'
+humidity label: 'No'
+wind label: 'No'
+["'No'"]
+[0.09375]
+RowTuple dict_keys(['outlook', 'temp', 'humidity', 'wind', 'label'])
+RowValues dict_values(["'Rain'", "'Mild'", "'High'", "'Weak'", "'Yes'"])
+outlook label: 'Yes'
+temp label: 'Yes'
+humidity label: 'Yes'
+wind label: 'Yes'
+["'No'", "'Yes'"]
+[0.09375, 0.13994169096209907]
+'Yes' :::: 'Yes'
+'Yes' :::: 'Yes'
+POSTERIORI OF: 'Yes' is: 0.13994169096209907
+print row tuple
+{'humidity': "'Normal'",
+ 'label': "'Yes'",
+ 'outlook': "'Sunny'",
+ 'temp': "'Cool'",
+ 'wind': "'Weak'"}
+RowTuple dict_keys(['outlook', 'temp', 'humidity', 'wind', 'label'])
+RowValues dict_values(["'Sunny'", "'Cool'", "'Normal'", "'Weak'", "'Yes'"])
+outlook label: 'No'
+temp label: 'No'
+humidity label: 'No'
+wind label: 'No'
+["'No'"]
+[0.09375]
+RowTuple dict_keys(['outlook', 'temp', 'humidity', 'wind', 'label'])
+RowValues dict_values(["'Sunny'", "'Cool'", "'Normal'", "'Weak'", "'Yes'"])
+outlook label: 'Yes'
+temp label: 'Yes'
+humidity label: 'Yes'
+wind label: 'Yes'
+["'No'", "'Yes'"]
+[0.09375, 0.11661807580174925]
+'Yes' :::: 'Yes'
+'Yes' :::: 'Yes'
+POSTERIORI OF: 'Yes' is: 0.11661807580174925
+print row tuple
+{'humidity': "'High'",
+ 'label': "'No'",
+ 'outlook': "'Rain'",
+ 'temp': "'Mild'",
+ 'wind': "'Strong'"}
+RowTuple dict_keys(['outlook', 'temp', 'humidity', 'wind', 'label'])
+RowValues dict_values(["'Rain'", "'Mild'", "'High'", "'Strong'", "'No'"])
+outlook label: 'No'
+temp label: 'No'
+humidity label: 'No'
+wind label: 'No'
+["'No'"]
+[0.09375]
+RowTuple dict_keys(['outlook', 'temp', 'humidity', 'wind', 'label'])
+RowValues dict_values(["'Rain'", "'Mild'", "'High'", "'Strong'", "'No'"])
+outlook label: 'Yes'
+temp label: 'Yes'
+humidity label: 'Yes'
+wind label: 'Yes'
+["'No'", "'Yes'"]
+[0.09375, 0.10495626822157432]
+'No' :::: 'Yes'
+Number of Correct Predictions : Number of Samples 2 : 3
+Accuracy: 66.66666666666667
+C:/Users/Student/Desktop/Lab2/naive5.py:4: FutureWarning: from_csv is deprecated. Please use read_csv(...) instead. Note that some of the default arguments are different, so please refer to the documentation for from_csv when changing your function calls
+  df_golf = DataFrame.from_csv(r"C:\\Users\\Student\\Desktop\\Lab2\\Machine-Learning-15CSL76-LAB-master\\golf.csv")
+
+..........................
+OutPut For 6th
+.....................
+
+Index(['Text', 'Label'], dtype='object')
+Accuracy score:  0.8133333333333334
+Precision score:  0.7763157894736842
+Recall score:  0.8428571428571429
