@@ -1,0 +1,306 @@
+C:/Users/Student/Desktop/Lab2/desetion.py:12: FutureWarning: from_csv is deprecated. Please use read_csv(...) instead. Note that some of the default arguments are different, so please refer to the documentation for from_csv when changing your function calls
+  df_tennis = DataFrame.from_csv(r"C:\Users\Administrator\PycharmProjects\candidateelimination\tennis.csv")
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+Entropy of given PlayTennis Data Set: 0.9402859586706309
+Overcast
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Overcast         Hot     High  False        Yes
+Overcast        Cool   Normal   True        Yes
+Overcast        Mild     High   True        Yes
+Overcast         Hot   Normal  False        Yes
+Rainy
+        Temperature Humidity  Windy PlayTennis
+Outlook                                       
+Rainy          Mild     High  False        Yes
+Rainy          Cool   Normal  False        Yes
+Rainy          Cool   Normal   True         No
+Rainy          Mild   Normal  False        Yes
+Rainy          Mild     High   True         No
+Sunny
+        Temperature Humidity  Windy PlayTennis
+Outlook                                       
+Sunny           Hot     High  False         No
+Sunny           Hot     High   True         No
+Sunny          Mild     High  False         No
+Sunny          Cool   Normal  False        Yes
+Sunny          Mild   Normal   True        Yes
+No and Yes Classes: PlayTennis Counter({'Yes': 4})
+No and Yes Classes: PlayTennis Counter({'Yes': 3, 'No': 2})
+No and Yes Classes: PlayTennis Counter({'No': 3, 'Yes': 2})
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+Info-gain for Outlook is :0.2467498197744391 
+
+High
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Sunny            Hot     High   True         No
+Overcast         Hot     High  False        Yes
+Rainy           Mild     High  False        Yes
+Sunny           Mild     High  False         No
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+Normal
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal  False        Yes
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Cool   Normal  False        Yes
+Rainy           Mild   Normal  False        Yes
+Sunny           Mild   Normal   True        Yes
+Overcast         Hot   Normal  False        Yes
+No and Yes Classes: PlayTennis Counter({'No': 4, 'Yes': 3})
+No and Yes Classes: PlayTennis Counter({'Yes': 6, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+
+ Info-gain for Humidity is: 0.15183550136234136 
+
+False
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Overcast         Hot     High  False        Yes
+Rainy           Mild     High  False        Yes
+Rainy           Cool   Normal  False        Yes
+Sunny           Mild     High  False         No
+Sunny           Cool   Normal  False        Yes
+Rainy           Mild   Normal  False        Yes
+Overcast         Hot   Normal  False        Yes
+True
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High   True         No
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Mild   Normal   True        Yes
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+No and Yes Classes: PlayTennis Counter({'Yes': 6, 'No': 2})
+No and Yes Classes: PlayTennis Counter({'No': 3, 'Yes': 3})
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+
+ Info-gain for Wind is:0.04812703040826927 
+
+Cool
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal  False        Yes
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Cool   Normal  False        Yes
+Hot
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Sunny            Hot     High   True         No
+Overcast         Hot     High  False        Yes
+Overcast         Hot   Normal  False        Yes
+Mild
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Mild     High  False        Yes
+Sunny           Mild     High  False         No
+Rainy           Mild   Normal  False        Yes
+Sunny           Mild   Normal   True        Yes
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+No and Yes Classes: PlayTennis Counter({'Yes': 3, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'No': 2, 'Yes': 2})
+No and Yes Classes: PlayTennis Counter({'Yes': 4, 'No': 2})
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+
+ Info-gain for Temperature is:0.029222565658954647 
+
+List of Attributes: ['Temperature', 'Humidity', 'Windy', 'PlayTennis']
+Predicting Attributes: ['Temperature', 'Humidity', 'Windy']
+Cool
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal  False        Yes
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Cool   Normal  False        Yes
+Hot
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Sunny            Hot     High   True         No
+Overcast         Hot     High  False        Yes
+Overcast         Hot   Normal  False        Yes
+Mild
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Mild     High  False        Yes
+Sunny           Mild     High  False         No
+Rainy           Mild   Normal  False        Yes
+Sunny           Mild   Normal   True        Yes
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+No and Yes Classes: PlayTennis Counter({'Yes': 3, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'No': 2, 'Yes': 2})
+No and Yes Classes: PlayTennis Counter({'Yes': 4, 'No': 2})
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+High
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Sunny            Hot     High   True         No
+Overcast         Hot     High  False        Yes
+Rainy           Mild     High  False        Yes
+Sunny           Mild     High  False         No
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+Normal
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal  False        Yes
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Cool   Normal  False        Yes
+Rainy           Mild   Normal  False        Yes
+Sunny           Mild   Normal   True        Yes
+Overcast         Hot   Normal  False        Yes
+No and Yes Classes: PlayTennis Counter({'No': 4, 'Yes': 3})
+No and Yes Classes: PlayTennis Counter({'Yes': 6, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+False
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Overcast         Hot     High  False        Yes
+Rainy           Mild     High  False        Yes
+Rainy           Cool   Normal  False        Yes
+Sunny           Mild     High  False         No
+Sunny           Cool   Normal  False        Yes
+Rainy           Mild   Normal  False        Yes
+Overcast         Hot   Normal  False        Yes
+True
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High   True         No
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Mild   Normal   True        Yes
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+No and Yes Classes: PlayTennis Counter({'Yes': 6, 'No': 2})
+No and Yes Classes: PlayTennis Counter({'No': 3, 'Yes': 3})
+No and Yes Classes: PlayTennis Counter({'Yes': 9, 'No': 5})
+Hot
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Sunny            Hot     High   True         No
+Overcast         Hot     High  False        Yes
+Mild
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Mild     High  False        Yes
+Sunny           Mild     High  False         No
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+No and Yes Classes: PlayTennis Counter({'No': 2, 'Yes': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 2, 'No': 2})
+No and Yes Classes: PlayTennis Counter({'No': 4, 'Yes': 3})
+False
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Overcast         Hot     High  False        Yes
+Rainy           Mild     High  False        Yes
+Sunny           Mild     High  False         No
+True
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High   True         No
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+No and Yes Classes: PlayTennis Counter({'No': 2, 'Yes': 2})
+No and Yes Classes: PlayTennis Counter({'No': 2, 'Yes': 1})
+No and Yes Classes: PlayTennis Counter({'No': 4, 'Yes': 3})
+False
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Sunny            Hot     High  False         No
+Overcast         Hot     High  False        Yes
+True
+        Temperature Humidity  Windy PlayTennis
+Outlook                                       
+Sunny           Hot     High   True         No
+No and Yes Classes: PlayTennis Counter({'No': 1, 'Yes': 1})
+No and Yes Classes: PlayTennis Counter({'No': 1})
+No and Yes Classes: PlayTennis Counter({'No': 2, 'Yes': 1})
+False
+        Temperature Humidity  Windy PlayTennis
+Outlook                                       
+Rainy          Mild     High  False        Yes
+Sunny          Mild     High  False         No
+True
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Overcast        Mild     High   True        Yes
+Rainy           Mild     High   True         No
+No and Yes Classes: PlayTennis Counter({'Yes': 1, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 1, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 2, 'No': 2})
+Cool
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal  False        Yes
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Cool   Normal  False        Yes
+Hot
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Overcast         Hot   Normal  False        Yes
+Mild
+        Temperature Humidity  Windy PlayTennis
+Outlook                                       
+Rainy          Mild   Normal  False        Yes
+Sunny          Mild   Normal   True        Yes
+No and Yes Classes: PlayTennis Counter({'Yes': 3, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 2})
+No and Yes Classes: PlayTennis Counter({'Yes': 6, 'No': 1})
+False
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal  False        Yes
+Sunny           Cool   Normal  False        Yes
+Rainy           Mild   Normal  False        Yes
+Overcast         Hot   Normal  False        Yes
+True
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Sunny           Mild   Normal   True        Yes
+No and Yes Classes: PlayTennis Counter({'Yes': 4})
+No and Yes Classes: PlayTennis Counter({'Yes': 2, 'No': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 6, 'No': 1})
+Cool
+         Temperature Humidity  Windy PlayTennis
+Outlook                                        
+Rainy           Cool   Normal   True         No
+Overcast        Cool   Normal   True        Yes
+Mild
+        Temperature Humidity  Windy PlayTennis
+Outlook                                       
+Sunny          Mild   Normal   True        Yes
+No and Yes Classes: PlayTennis Counter({'No': 1, 'Yes': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 1})
+No and Yes Classes: PlayTennis Counter({'Yes': 2, 'No': 1})
+
+
+The Resultant Decision Tree is :
+
+{'Humidity': {'High': {'Temperature': {'Hot': {'Windy': {False: None,
+                                                         True: 'No'}},
+                                       'Mild': {'Windy': {False: None,
+                                                          True: None}}}},
+              'Normal': {'Windy': {False: 'Yes',
+                                   True: {'Temperature': {'Cool': None,
+                                                          'Mild': 'Yes'}}}}}}
